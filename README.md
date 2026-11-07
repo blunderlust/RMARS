@@ -1,13 +1,22 @@
-# RMARS postcard site
+# RMARS — Reidsville Mobile Automotive
 
-Static, mobile-first business website for Reidsville Mobile Automotive. No backend or customer forms yet.
+Mobile-first, static postcard website. No backend or form submissions; SMS and call links only.
 
-## Deployment
+## Publish with GitHub Pages
 
-Enable GitHub Pages in Settings → Pages, choose Deploy from branch, main, root. This repository has a CNAME for reidsvillemobile.com; purchase the domain and configure DNS to point at GitHub Pages. Enable HTTPS after verification.
+In the GitHub repository open **Settings → Pages → Build and deployment → Deploy from a branch**, select **main** and **/(root)**, then **Save**. After deployment, the preview URL is `https://blunderlust.github.io/RMARS/`.
 
-## Assets
+## Custom domain (when purchased)
 
-Add the optimized images from the downloadable site ZIP at `assets/logo.webp` and `assets/paul.webp` before publishing. The logo is currently a crop from a screenshot, not a high-resolution master.
+Register `reidsvillemobile.com`, add it in **Settings → Pages → Custom domain**, and configure the DNS records shown by GitHub. Let GitHub create the CNAME setting. Then update the canonical URL and sitemap from `blunderlust.github.io/RMARS/` to `reidsvillemobile.com`, and enable HTTPS after DNS verifies.
 
-Verify telephone, general labor rate, service area, and business details before launch.
+## Files
+
+- `index.html`: layout, text, call/text buttons, and inline CSS
+- `assets/logo.webp`: temporary screenshot-crop logo
+- `assets/paul.webp`: owner photo
+- `assets/favicon.svg`: website icon
+
+For the first public release, hourly labor rates are **not** listed. Estimate requests are handled directly by call/text.
+
+Review the phone number, service area, and details before wider promotion.
